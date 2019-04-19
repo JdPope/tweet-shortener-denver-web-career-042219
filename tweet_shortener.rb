@@ -13,6 +13,6 @@ def word_substituter(tweet)
   else word = word
   end
   }
-
+return new_tweet
   
 end
