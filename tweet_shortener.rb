@@ -30,6 +30,6 @@ def bulk_tweet_shortener(tweet)
   else word
   end
   }
-puts new_array.join(" ")
-  
+puts_this = new_array.join(" ")
+puts puts_this  
 end
