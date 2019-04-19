@@ -7,7 +7,7 @@ end
 def word_substituter(tweet)
   new_tweet = tweet.split
   dict = dictionary
-  new_tweet.map{ |word|
+  new_tweet.map { |word|
    if dict.include?word
     word=dict[word]
   else word = word
