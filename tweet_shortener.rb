@@ -11,7 +11,7 @@ def word_substituter(tweet)
   dict_keys = dict.keys
  new_array= new_tweet.map { |word|
    if dict_keys.include?word.downcase
-    dict[word]
+    dict[word.downcase]
   else word
   end
   }
