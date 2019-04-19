@@ -26,3 +26,10 @@ def bulk_tweet_shortener(tweet_array)
   
 end
 end 
+
+
+def selective_tweet_shortener
+
+
+
+
