@@ -10,7 +10,7 @@ def word_substituter(tweet)
   dict = dictionary
   dict_keys = dict.keys
  new_array= new_tweet.map { |word|
-   if dict_keys.include?word.
+   if dict_keys.include?word.downcase
     dict[word]
   else word
   end
