@@ -14,6 +14,6 @@ def word_substituter(tweet)
   else word
   end
   }
-return new_array
+return new_array.join
   
 end
