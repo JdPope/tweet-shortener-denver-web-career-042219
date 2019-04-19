@@ -8,7 +8,6 @@ def word_substituter(tweet)
   new_tweet = tweet.split
   dict = dictionary
   dict_keys = dict.keys
-  return dict_keys
  new_array= new_tweet.map { |word|
    if dict_keys.include?word
     dict[word]
